@@ -130,5 +130,5 @@ module "ec2_instances" {
 module "s3-bucket-bm" {
   source  = "app.terraform.io/policy-as-code-training/s3-bucket-bm/aws"
   version = "1.0.0"
-  bucket_name = "my_bucket_bm"
+  bucket_name = "my-bucket"
 }
